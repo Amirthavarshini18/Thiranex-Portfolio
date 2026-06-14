@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Contact Amirtha Varshini N J through an accessible portfolio contact form.">
+  <meta name="author" content="Amirtha Varshini N J">
+
+  <title>Contact | Amirtha Varshini</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header>
+    <nav aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <section class="page-card" aria-labelledby="contact-heading">
+      <p class="eyebrow">Connect</p>
+
+      <h1 id="contact-heading">Let’s build something meaningful.</h1>
+
+      <p>
+        Have a project idea, collaboration, or opportunity? Send a message using the form below.
+      </p>
+
+      <form action="#" method="post" aria-label="Contact form">
+
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input 
+            type="text" 
+            id="name" 
+            name="name" 
+            required 
+            autocomplete="name">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            required 
+            autocomplete="email">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea 
+            id="message" 
+            name="message" 
+            rows="6" 
+            required></textarea>
+        </div>
+
+        <button type="submit" aria-label="Send contact form message">
+          Send Message
+        </button>
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Amirtha Varshini N J. All rights reserved.</p>
+  </footer>
+</body>
+</html>
